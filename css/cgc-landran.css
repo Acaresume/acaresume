@@ -69,15 +69,15 @@ table {
 	width: 100%;
 }
 
-caption {
+.project-head {
 	font-weight: bold;
-	margin-bottom: 5px;
-	font-size: 14px;
-	margin-top: 10px;
-	border-collapse: collapse;
-	width: 100%;
+	background-color: gray;
+	justify-content: left;
 }
 
+.project-head-text {
+	text-align: left;
+}
 .skill_table {
 	text-align: left;
 }
