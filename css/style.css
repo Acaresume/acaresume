@@ -3,6 +3,15 @@ body {
     background: #e2e8fa;
 }
 
+a {
+    color: #222946;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    color: #222946;
+}
+
 .ar-color {
     color: #708ae8;
     font-size: 30px;
@@ -19,10 +28,6 @@ body {
     font-weight: bolder;
 }
 
-a {
-    font-family: 'Roboto', sans-serif;
-}
-
 .ar-color-bg {
     background: #708ae8 !important;
     font-weight: bolder;
@@ -34,4 +39,8 @@ a {
     margin-top: 100px;
     font-weight: bolder;
     font-size: 40px;
+}
+
+.btn:hover {
+    color: #222946;
 }
