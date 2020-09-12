@@ -1,4 +1,4 @@
-.jhlogo {
+.ar-jhu-header-logo {
 	height: 100px;
 	margin-right: 30px;
 }
@@ -8,7 +8,7 @@
 body{
 	background-color: gray;
 }
-.root{
+.ar-jhu-resume{
 	background-color: white;
 	box-shadow: 0px 8px 6px -6px black;
 	max-width: 680px;
@@ -19,30 +19,25 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-.parent__info{
+.ar-jhu-info-basic{
 	display: flex;
 	justify-content: space-between;
 }
-.edu {
+.ar-jhu-education-details {
 	margin-top: 10px;
 }
-.heading{
+.ar-jhu-heading{
 	margin-top: 20px;
 }
-.header{
+.ar-jhu-header{
 	display: flex;
 	align-items: center;
 }
-.header > h5 {
+.ar-jhu-header > h5 {
 	margin-left: 50px;
 }
-.heading__text {
-	margin-bottom: 0px;
-}
-.hline{
-	margin-top: 0px;
-}
-.line{
+
+.ar-jhu-header-verticalline{
 background-color: black;
  display: inline-block;
  width: 0.5px;
@@ -50,15 +45,15 @@ background-color: black;
  border-left: 1px solid #ccc;
  border-right: 1px solid #ccc;
 }
-.about {
+.ar-jhu-info {
 	margin-top: 50px;
 	text-align: center;
 }
-.slogan {
+.ar-jhu-header-slogan {
 	margin-left: 30px;
 	display: inline-block;
 }
-h4 {
+.ar-jhu-header > h4 {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
