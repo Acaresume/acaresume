@@ -16,6 +16,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/index.js"></script>
     <title>Acaresume | Academic resumes made easy</title>
 </head>
 
@@ -40,12 +41,14 @@
                 Make good looking academic resumes
                 the easy way <br>
 
-                <select class="form-control w-50">
-                    <option selectedvvalue="cgc-landran">CGC Landran</option>
-                    <option value="1">One</option>
+                <select class="form-control w-50 ar-college-selector">
+                    <option selected value="cgc-landran">CGC Landran</option>
+                    <option value="john-hopkins">John Hopkins University</option>
                 </select>
-
-                <button type="button" class="btn btn-lg ar-color-bg mt-3">Build Your Resume</button>
+                <a type="button" class="ar-url-maker btn btn-lg ar-color-bg mt-3"
+                    href="/templates/cgc-landran/index.html">
+                    Build Your Resume
+                </a>
             </div>
             <!-- <div class="col-sm-5">
                 <img src="./assets/resume.png" style="width:570px;" alt="">
