@@ -1,31 +1,43 @@
-body{
+body {
 	background-color: gray;
 }
 
-.resume{
+.ar-cgc-landran-header {
+	margin-top: 5px;
+}
+
+.ar-cgc-landran-resume {
 	box-shadow: 0 8px 6px -6px black;
 	background-color: white;
-	width: 842px;
+	width: 816px;
 	margin: 0 auto;
 	padding: 35px;
 }
-.cgc_logo {
-	height: 90px;
+
+.ar-cgc-landran-logo {
+	height: 80px;
 	object-fit: contain;
 }
-.photo {
-	height: 140px;
-	object-fit: contain;
+
+.ar-cgc-landran-header-list p {
+	margin-bottom: 5px;
+	margin-top: 1px;
+	font-size: initial;
 }
-.resume__about {
-	margin-top: 3px;
+
+.ar-cgc-landran-about {
+	margin-top: 25px;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
 }
-.resume__heading{
+
+.ar-cgc-landran-table-heading {
 	margin-top: 20px;
-	padding: 1px;
+}
+
+.ar-cgc-landran-heading {
+	padding: 5px;
 	padding-left: 4px;
 	vertical-align: middle;
 	background-color: lightgrey;
@@ -34,28 +46,29 @@ body{
 .header {
 	background-color: gray;
 }
-.attr{
+
+.attr {
 	width: 150px;
 }
-.table__header{
+
+.ar-cgc-landran-table-header {
 	background: lightgray;
+	font-weight: bolder;
 }
 
-p{
-	font-size: 14px;
-	margin-bottom: 5px;
-}
 td, th {
-  border: 1px solid #000;
-  text-align: center;
-  padding: 8px;
+	border: 1px solid #000;
+	text-align: center;
+	padding: 8px;
 }
+
 table {
 	font-size: 14px;
 	margin-top: 10px;
 	border-collapse: collapse;
 	width: 100%;
 }
+
 caption {
 	font-weight: bold;
 	margin-bottom: 5px;
@@ -64,12 +77,15 @@ caption {
 	border-collapse: collapse;
 	width: 100%;
 }
-.skill_table{
+
+.skill_table {
 	text-align: left;
 }
-.project__header{
+
+.project__header {
 	width: 100%;
 }
+
 .declare {
 	display: flex;
 	justify-content: space-between;
