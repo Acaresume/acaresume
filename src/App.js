@@ -5,6 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import GetStarted from './components/getStarted';
+import './css/app.css';
 
 export default function App() {
   return (
@@ -43,7 +45,15 @@ export default function App() {
 }
 
 function Home() {
-  return <h2>Home</h2>;
+  return (
+    <div className="App">
+      <Router>
+        <Route path="/">
+          <GetStarted />
+        </Route>
+      </Router>
+    </div>
+  );
 }
 
 function About() {
