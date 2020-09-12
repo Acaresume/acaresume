@@ -1,0 +1,76 @@
+body{
+	background-color: gray;
+}
+
+.resume{
+	box-shadow: 0 8px 6px -6px black;
+	background-color: white;
+	width: 842px;
+	margin: 0 auto;
+	padding: 35px;
+}
+.cgc_logo {
+	height: 90px;
+	object-fit: contain;
+}
+.photo {
+	height: 140px;
+	object-fit: contain;
+}
+.resume__about {
+	margin-top: 3px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.resume__heading{
+	margin-top: 20px;
+	padding: 1px;
+	padding-left: 4px;
+	vertical-align: middle;
+	background-color: lightgrey;
+}
+
+.header {
+	background-color: gray;
+}
+.attr{
+	width: 150px;
+}
+.table__header{
+	background: lightgray;
+}
+
+p{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+td, th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 8px;
+}
+table {
+	font-size: 14px;
+	margin-top: 10px;
+	border-collapse: collapse;
+	width: 100%;
+}
+caption {
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 14px;
+	margin-top: 10px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.skill_table{
+	text-align: left;
+}
+.project__header{
+	width: 100%;
+}
+.declare {
+	display: flex;
+	justify-content: space-between;
+}
