@@ -40,8 +40,9 @@ a:hover {
     margin-top: 100px;
     font-weight: bolder;
     font-size: 40px;
+    color: #2d375d;
 }
 
 .btn:hover {
-    color: #222946;
+    color: #E2E8FA;
 }
