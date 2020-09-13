@@ -78,6 +78,7 @@ table {
 .project-head-text {
 	text-align: left;
 }
+
 .skill_table {
 	text-align: left;
 }
@@ -89,4 +90,23 @@ table {
 .declare {
 	display: flex;
 	justify-content: space-between;
+}
+
+.ar-cgc-landran-save-button {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	right: 0;
+	margin-right: 130px;
+	margin-bottom: 30px;
+	width: 85px;
+	border-radius: 50%;
+	padding: 25px 0;
+	background: #8e9cd2;
+}
+
+@media print {
+	.ar-cgc-landran-save-button {
+		display: none;
+	}
 }
