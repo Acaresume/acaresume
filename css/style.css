@@ -4,12 +4,13 @@ body {
 }
 
 a {
-    color: #222946;
+    color: #E2E8FA;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-a:hover{
-    color: #222946;
+
+a:hover {
+    color: #E2E8FA;
 }
 
 .ar-color {
@@ -31,7 +32,7 @@ a:hover{
 .ar-color-bg {
     background: #708ae8 !important;
     font-weight: bolder;
-    color: #222946;
+    color: #E2E8FA;
 }
 
 .ar-main-text {

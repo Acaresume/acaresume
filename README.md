@@ -8,10 +8,6 @@ The truth is design is hard and not everybody (even people from the Computer Sci
 Just visit  [here](https://acaresume.github.io/acaresume/)
 and choose the college name and edit the template into your resume and press the Save button.
 
-## Development
+## Contributing
 
-To run a development server that will watch for file changes and rebuild the scripts, run:
-
-```
-npm start
-```
+Contributions are welcome, feel free to add your College template and send a Pull Request. The guide to create the templates is [here](https://github.com/Acaresume/acaresume/blob/master/CONTRIBUTING.md).
