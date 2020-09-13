@@ -7,7 +7,6 @@ body {
 }
 
 .ar-cgc-landran-resume {
-	box-shadow: 0 8px 6px -6px black;
 	background-color: white;
 	width: 816px;
 	margin: 0 auto;
@@ -114,4 +113,13 @@ table {
 	.ar-cgc-landran-save-button {
 		display: none;
 	}
+}
+
+@media print {
+    .ar-cgc-landran-save-button {
+        display: none;
+    }
+    body {
+        background: white;
+    }
 }
