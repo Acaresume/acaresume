@@ -15,7 +15,7 @@ body {
 	background-color: white;
 	width: 816px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 35px;
 }
 
 .linear {
@@ -26,10 +26,28 @@ body {
 .ar-jhu-info-basic {
 	display: flex;
 	justify-content: space-between;
+	font-size: 17px;
+}
+
+.ar-jhu-info-basic .info {
+	width: 150px;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
 }
 
 .ar-jhu-education-details {
 	margin-top: 10px;
+	font-size: 17px;
 }
 
 .ar-jhu-heading {
@@ -56,7 +74,6 @@ body {
 }
 
 .ar-jhu-info {
-	margin-top: 50px;
 	text-align: center;
 }
 
@@ -65,18 +82,26 @@ body {
 	display: inline-block;
 }
 
+.ar-jhu-leadership {
+	font-size: 17px;
+}
+
 .ar-jhu-header>h4 {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 
-p {
-	font-size: 12px;
-	margin: 1px;
+.ar-jhu-full-name {
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.linear ul {
+	width: 60%;
 }
 
 li {
-	font-size: 12px;
+	font-size: 17px;
 }
 
 ul {
