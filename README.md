@@ -5,7 +5,7 @@
 The truth is design is hard and not everybody (even people from the Computer Science community) understand design. This counts to the reason that people really find it hard to make academic resumes and there is no online tools available to make resumes which follows the University's recommended format. This project aims to bring an easy UI/UX experience to make your University resumes specially for people who don't understand how to make perfectly aligned beautiful resumes.
 
 ## Usage
-todo
+Just visit acaresume.github.io/acaresume/ and choose the college name and edit the template into your resume and press the Save button.
 
 ## Development
 
